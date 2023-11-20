@@ -1,0 +1,280 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #FFF;
+}
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+.HomeContainer {
+   position:absolute;
+    left:0px;
+    top:160px;
+    width: 99vw;
+    height: 76vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+
+}
+    .HomeContainer img {
+        padding: 0px;
+        width: 360px;
+        height: 56vh;
+        transition: width 1s, height 1.5s;
+        margin-right: 30px;
+        opacity: .5;
+         z-index:2;
+    }
+
+        .HomeContainer img:hover {
+            transition: width .5s, height 1s, opacity .5s ease-in-out;
+            opacity: .8;
+            width: 390px;
+            height: 60vh;
+            
+        }
+   
+
+
+.image-container {
+    position: relative;
+}
+
+    .image-container img {
+        width: 360px;
+        height: 56vh;
+        transition: width 1s, height 1.5s;
+        margin-right: 30px;
+        opacity: .5;
+    }
+
+        .image-container img:hover {
+            transition: width 0.5s, height 1s, opacity 0.5s ease-in-out;
+            opacity: .7;
+            width: 390px;
+            height: 60vh;
+            
+        }
+      
+
+.HomeContainer p {
+    
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    position:relative;
+    bottom:450px;
+    left:-17px;
+    z-index:1;
+    opacity:.7;
+ 
+}
+.HomeContainer a {
+    text-decoration: none;
+}
+
+=======
+>>>>>>> 71dd9fe0105b47d58ab48f123d2ad3b1ee570985
+=======
+>>>>>>> 71dd9fe0105b47d58ab48f123d2ad3b1ee570985
+header a {
+    background: #f5e9e9;
+    font-family: Tahoma;
+    font-size: large;
+    font-weight: bolder;
+    color: black;
+    border-radius: 25px;
+    width: 200px;
+    position: relative;
+    text-align: center;
+    margin-block: auto;
+}
+
+    header a:hover {
+        background: #05cb8eae;
+    }
+
+header ul {
+    gap: 10px;
+}
+
+body {
+    margin-bottom: 60px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 30px;
+    background: linear-gradient(rgba(0, 8, 20, 0.7), rgba(0, 8, 20, 0.7)), url('https://i0.wp.com/themaplecuttingboard.com/wp-content/uploads/2018/09/food-kitchen-cutting-board-cooking-high-resolution-background-images-desktop-images-of-windows-download-wallpaper-amazing-cool-best-wallpaper-ever-images-pictures-1600x1016.jpg?ssl=1') no-repeat center center;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+
+.inputBox {
+    position: relative;
+    width: 250px;
+}
+
+
+    .inputBox input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid rgb(255, 255, 255, 0,19);
+        background: #002e31a4;
+        border-radius: 5px;
+        outline: none;
+        color: #fff;
+        font-size: 1em;
+        
+    }
+        .inputBox input:focus {
+            background: #00575ca4;
+            transition: background .3s;
+        }
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255, 0,4);
+    background: #002e31a4;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+    font-size: 1em;
+    margin-bottom: 10px;
+   
+}
+<<<<<<< HEAD
+<<<<<<< HEAD
+    .form-control:disabled {
+        background: linear-gradient(to right,#5b0000, #f20a0a83);
+    }
+=======
+>>>>>>> 71dd9fe0105b47d58ab48f123d2ad3b1ee570985
+=======
+>>>>>>> 71dd9fe0105b47d58ab48f123d2ad3b1ee570985
+    .form-control:focus {
+        background: #00575ca4;
+        transition: background 0.3s;
+    }
+
+button {
+    appearance: button;
+    background-color: #1899D6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: auto;
+=======
+    width: 100px;
+>>>>>>> 71dd9fe0105b47d58ab48f123d2ad3b1ee570985
+=======
+    width: 100px;
+>>>>>>> 71dd9fe0105b47d58ab48f123d2ad3b1ee570985
+}
+
+    button:after {
+        background-clip: padding-box;
+        background-color: #1CB0F6;
+        border: solid transparent;
+        border-radius: 16px;
+        border-width: 0 0 4px;
+        bottom: -4px;
+        content: "";
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -1;
+    }
+
+
+    button:focus {
+        user-select: auto;
+    }
+
+    button:hover:not(:disabled) {
+        filter: brightness(1.1);
+        -webkit-filter: brightness(1.1);
+    }
+
+    button:disabled {
+        cursor: auto;
+    }
+
+    button:active {
+        border-width: 4px 0 0;
+        background: none;
+    }
+
+
+table {
+    position: relative;
+    left: 60vh;
+    bottom: 50vh;
+    border: solid red 1px;
+    width: 70vh;
+    margin: 10px;
+}
+
+    table td {
+        font-size: large;
+        backdrop-filter: blur(2px);
+        padding-left:10px;
+        text-align: left;
+    }
+
+    table tr {
+        margin:10px;
+        text-align: center;
+    }
+
+img {
+    position: relative;
+    width: 150px;
+    height: 90px;
+    opacity: 0.7;
+    transition: width 0.5s, height 0.5s;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    transition:opacity 0.4s ease-in-out;
+=======
+>>>>>>> 71dd9fe0105b47d58ab48f123d2ad3b1ee570985
+=======
+>>>>>>> 71dd9fe0105b47d58ab48f123d2ad3b1ee570985
+}
+
+    img:hover {
+        transition: 0.5s;
+        width: 190px;
+        height: 120px;
+        opacity: 1;
+    }
